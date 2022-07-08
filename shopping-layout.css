@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  width: 400px;
+  font-family: Quicksand; sans-serif;
+  margin-left: 2rem;
+}
+
+.description {
+  width: 400px;
+}
+
+h1 {
+  font-size: large;
+  font-weight: 900;
+}
+img {
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.black-gold {
+  background-image: linear-gradient(to right, goldenrod 50%, black 50%);
+}
+
+.black-blue {
+  background-image: linear-gradient(to right, blue 50%, black 50%);
+}
+
+.black-pink {
+  background-image: linear-gradient(to right, hotpink 50%, black 50%);
+}
+.color {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+}
+.colors {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+
+.selections {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+select + label {
+  margin-left: 10rem;
+}
+
+.price {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-weight: 900;
+}
+button {
+  margin-top: 1.5rem;
+  padding: 0.6rem;
+  background-color: rgb(90, 90, 199);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  width: 100%;
+}
+
+select{
+  margin-left: 1rem;
+  border: none;
+width: 12rem;
+}
+.shadow {
+  height: 80px;
+  width: 400px;
+  background: linear-gradient( transparent 20%, white 80%);
+  position: absolute;
+  margin-top: -5rem;
+}
